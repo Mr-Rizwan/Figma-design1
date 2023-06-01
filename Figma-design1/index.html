@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="header">
+            <input type="checkbox" id="check">
+                <label for="check" class="bars">
+                    <i class="fas fa-bars"></i>
+                </label>
+            <a style="display:inline-block; padding: 20px;" href="/">
+                <div style="display: flex;">
+                    <img src="images/logo.svg" alt="" width="35px" height="35px">
+                    <h2 style="color: #fff;">kubernetes</h2>
+                </div>    
+            </a>
+            <nav>
+                          
+                <ul>
+                    <li><a class="active" href="">Documentation</a></li>
+                    <li><a class="active" href="">Kubernetes Blog</a></li>
+                    <li><a class="active" href="">Training</a></li>
+                    <li><a class="active" href="">Partners</a></li>
+                    <li><a class="active" href="">Community</a></li>
+                    <li><a class="active" href="">Case Studies</a></li>
+                    <li><a class="active" href="">Versions <i class="fas fa-caret-down"></i></a>
+                    <ul class="drop">
+                        <li><a href="">Release Information</a></li>
+                        <li><a href="">v1.27</a></li>
+                        <li><a href="">v1.26</a></li>
+                        <li><a href="">v1.25</a></li>
+                        <li><a href="">v1.24</a></li>
+                        <li><a href="">v1.23</a></li>
+                    </ul>
+                    </li>
+                    <li><a class="active" href="">English <i class="fas fa-caret-down"></i></a>
+                    <ul class="drop">
+                        <li><a href="">中文 (Chinese)</a></li>
+                        <li><a href="">한국어 (Korean)</a></li>
+                        <li><a href="">日本語 (Japanese)</a></li>
+                        <li><a href="">Français (French)</a></li>
+                        <li><a href="">Italiano (Italian)</a></li>
+                        <li><a href="">Deutsch (German)</a></li>
+                        <li><a href="">Español (Spanish)</a></li>
+                        <li><a href="">Português (Portuguese)</a></li>
+                        <li><a href="">Tiếng Việt (Vietnamese)</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div class="headtext">
+                <h2>Legacy k8s.gcr.io container image registry is being redirected to registry.k8s.io</h2>
+                <p>k8s.gcr.io image registry is gradually being redirected to registry.k8s.io (since Monday March 20th).
+                </p>
+                <p>All images available in k8s.gcr.io are available at registry.k8s.io.</p>
+                <p>Please read our <a style="text-decoration: underline; color: #fff;"
+                        href="announcement">announcement</a> for more details.</p>
+            </div>
+        </div>
+        <div>
+            <img class="aimg" src="images/flower.svg" alt="Error">
+            <h3 style="margin-bottom:50px ; margin: 35px; text-align: center;"><a
+                    href="https://kubernetes.io/">Kubernetes</a>, also known as K8s, is an open-source system for
+                automating deployment, scaling, and management of containerized applications.</h3>
+            <p style="margin-bottom:50px ; margin: 35px;text-align: center;">It groups containers that make up an
+                application into logical units for easy management and discovery.
+                Kubernetes builds upon <a href="">15 years of experience of running production workloads at Google</a>,
+                combined with best-of-breed ideas and practices from the community.</p>
+            <div class="first">
+
+                <div class="firstflex">
+                    <div class="ff" id="ff1">
+                        <img class="bimg" src="images/scalable.svg" alt="">
+
+                    </div>
+                    <div class="ff" id="ff2">
+                        <h3>Planet Scale</h3>
+                        <p>Designed on the same principles that allow Google to run billions of containers a week,
+                            Kubernetes
+                            can scale without increasing your operations team.</p>
+
+                    </div>
+                </div>
+                <div class="firstflex" id="sflex2">
+                    <div class="ff" id="ff1">
+                        <img class="cimg" src="images/blocks.svg" alt="">
+
+                    </div>
+                    <div class="ff" id="ff2">
+                        <h3>Never Outgrow</h3>
+                        <p>Whether testing locally or running a global enterprise, Kubernetes flexibility grows with you
+                            to
+                            deliver your applications consistently and easily no matter how complex your need is.</p>
+
+                    </div>
+                </div>
+
+                <div class="firstflex">
+                    <div class="ff" id="ff1">
+                        <img class="dimg" src="images/suitcase.svg" alt="">
+
+                    </div>
+                    <div class="ff" id="ff2">
+                        <h3>Run K8s Anywhere </h3>
+                        <p>Kubernetes is open source giving you the freedom to take advantage of on-premises, hybrid, or
+                            public
+                            cloud infrastructure, letting you effortlessly move workloads to where it matters to you.
+                        </p>
+                        <p>To download Kubernetes, visit the <a href="">download</a> section.</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div>
+            <div class="mobilebanner">
+                <img src="images/kub_video_banner_homepage.jpg" alt="" width="100%" height="auto">
+            </div>
+            <div class="mainbanner">
+                <div class="lbanner" id="mbanner">
+
+                </div>
+                <div class="videobanner" id="mbanner">
+                    <h1 style="color: #fff;">The Challenges of Migrating 150+ Microservices to Kubernetes</h1>
+                    <p style="color: #fff;">By Sarah Wells, Technical Director for Operations and Reliability, Financial
+                        Times</p>
+                    <a href="">
+                        <div class="watch">
+                            <i class="fa-sharp fa-solid fa-play"
+                                style="color: #3371e3; width: 20%; padding-top: 5px;"></i>
+                            <p class="bannerbtn">Watch Video</p>
+                        </div>
+                    </a>
+                    <a href="">
+                        <h3 class="bannertext1">
+
+                            Attend KubeCon + CloudNativeCon Europe on April 18-21, 2023</h3>
+                    </a>
+                    <a href="">
+                        <h3 class="bannertext2">
+                            Attend KubeCon + CloudNativeCon North America on November 6-9, 2023</h3>
+                    </a>
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <div id="featurecolor">
+            <div>
+                <img class="featureimg" src="images/logo.svg" alt="">
+                <h3 class="feature">Kubernetes Features</h3>
+            </div>
+            <div class="featureblock">
+                <div class="row">
+                    <div class="f" id="f1">
+                        <a href="">
+                            <h4 class="fh4">Automated rollouts and rollbacks</h4>
+                        </a>
+                        <p>Kubernetes progressively rolls out changes to your application or its configuration, while
+                            monitoring application health to ensure it doesn't kill all your instances at the same time.
+                            If something goes wrong, Kubernetes will rollback the change for you. Take advantage of a
+                            growing ecosystem of deployment solutions.</p>
+                    </div>
+                    <div class="f">
+                        <a href="">
+                            <h4 class="fh4">Service discovery and load balancing</h4>
+                        </a>
+                        <p>No need to modify your application to use an unfamiliar service discovery mechanism.
+                            Kubernetes gives Pods their own IP addresses and a single DNS name for a set of Pods, and
+                            can load-balance across them.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f" id="f1">
+                        <a href="">
+                            <h4 class="fh4">Storage orchestration</h4>
+                        </a>
+                        <p>Automatically mount the storage system of your choice, whether from local storage, a public
+                            cloud provider such as <a href="https://aws.amazon.com/products/storage/">AWS</a> or <a
+                                href="https://cloud.google.com/storage/">GCP</a>, or a network storage system such as
+                            NFS, iSCSI, Ceph, Cinder.</p>
+
+                    </div>
+                    <div class="f">
+                        <a href="">
+                            <h4 class="fh4">Self-healing</h4>
+                        </a>
+                        <p>Restarts containers that fail, replaces and reschedules containers when nodes die, kills
+                            containers that don't respond to your user-defined health check, and doesn't advertise them
+                            to clients until they are ready to serve.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f" id="f1">
+                        <a href="">
+                            <h4 class="fh4">Secret and configuration management</h4>
+                        </a>
+                        <p>Deploy and update secrets and application configuration without rebuilding your image and
+                            without exposing secrets in your stack configuration.</p>
+
+                    </div>
+                    <div class="f">
+                        <a href="">
+                            <h4 class="fh4">Automatic bin packing</h4>
+                        </a>
+                        <p>Automatically places containers based on their resource requirements and other constraints,
+                            while not sacrificing availability. Mix critical and best-effort workloads in order to drive
+                            up utilization and save even more resources.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f" id="f1">
+                        <a href="">
+                            <h4 class="fh4">Batch execution</h4>
+                        </a>
+                        <p>In addition to services, Kubernetes can manage your batch and CI workloads, replacing
+                            containers that fail, if desired.</p>
+
+                    </div>
+                    <div class="f">
+                        <a href="">
+                            <h4 class="fh4">Horizontal scaling</h4>
+                        </a>
+                        <p>Scale your application up and down with a simple command, with a UI, or automatically based
+                            on CPU usage.</p>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f" id="f1">
+                        <a href="">
+                            <h4 class="fh4">IPv4/IPv6 dual-stack</h4>
+                        </a>
+                        <p>Allocation of IPv4 and IPv6 addresses to Pods and Services</p>
+
+                    </div>
+                    <div class="f">
+                        <a href="">
+                            <h4 class="fh4">Designed for extensibility</h4>
+                        </a>
+                        <p>Add features to your Kubernetes cluster without changing upstream source code.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 style="text-align: center; margin-top: 20px;">Case Studies</h2>
+            <div class="case">
+                <div class="c">
+                    <img src="images/babylon_featured_logo.svg" alt="" height="200px" width="350px">
+                    <h3>"Kubernetes is a great platform for machine learning because it comes with all the scheduling
+                        and …"</p>
+                        <a class="read" href="">
+                            <p>Read more
+                    </h3></a>
+                </div>
+
+                <div class="c">
+                    <img src="images/BAH_BIG.svg" alt="" height="200px" width="350px">
+                    <h3>"Kubernetes is a great solution for us. It allows us to rapidly iterate on our clients' demands.
+                        "</h3>
+                    <a class="read" href="">
+                        <p>Read more</p>
+                    </a>
+                </div>
+            </div>
+            <div class="case">
+                <div class="c">
+                    <img src="images/booking.com_featured_logo.svg" alt="" height="200px" width="350px">
+                    <h3>"We realized that we needed to learn Kubernetes better in order to fully use the potential of
+                        it. At …"</h3>
+                    <a class="read" href="">
+                        <p>Read more</p>
+                    </a>
+                </div>
+
+                <div class="c">
+                    <img src="images/appdirect_featured_logo.svg" alt="" height="200px" width="350px">
+                    <h3>"We made the right decisions at the right time. Kubernetes and the cloud native technologies are
+                        now …"</h3>
+                    <a class="read" href="">
+                        <p>Read more</p>
+                    </a>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 40px; margin-bottom: 70px;"><a
+                    href="https://kubernetes.io/case-studies/">
+                    <h3>Case Studies</h3>
+                </a></div>
+        </div>
+        <div style="text-align: center;">
+            <h3>We are a <a href="https://www.cncf.io/">CNCF</a> graduated project</h3>
+            <img src="images/cncf-color.svg" alt="" height="200px" width="300px">
+        </div>
+        <div class="search">
+            <h3>Interested in receiving the latest Kubernetes news? Sign up for KubeWeekly.</h3>
+            <div style="margin: 50px;">
+                <input style="width: 100%; height: 25px; padding: 2px;" type="text" placeholder="Email address">
+                <button
+                    style="border-radius: 5px;border: none; padding: 10px; margin: 5px; background-color: #aaa; color: #fff;">Subscribe</button>
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+            <div class="footerhome">
+                <h3>Home</h3>
+                <h3>Blog</h3>
+                <h3>Training</h3>
+                <h3>partners</h3>
+                <h3>Community</h3>
+                <h3>Case Studies</h3>
+            </div>
+            
+            <div class="footer2">
+                <div class="footericon" id="foot1st">
+                    <div class="firsticon">
+                        <a href=""><i class="fa fa-envelope" style="color: #f0f0f0; padding: 8px;"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter" style="color: #f0f0f0; padding: 8px;"></i></a>
+                    </div>
+                    <a href=""><i class="fa-solid fa-calendar-days" style="color: #f0f0f0; padding: 8px;"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube" style="color: #f0f0f0; padding: 2px;"></i></a>
+                </div>
+                <div class="footreverse">
+                    <div class="footericon" id="foot2nd">
+                        <div class="firsticon">
+                            <a href=""><i class="fa-brands fa-github" style="color: #f0f0f0; padding: 8px"></i></a>
+                            <a href=""><i class="fa-brands fa-slack" style="color: #f0f0f0; padding: 8px"></i></a>
+                        </div>
+
+                        <a href=""><i class="fa-solid fa-pen-to-square" style="color: #f0f0f0; padding: 8px"></i></a>
+                        <a href=""><i class="fa-brands fa-stack-overflow" style="color: #f0f0f0; padding: 2px"></i></a>
+                    </div>
+                    
+                    <div class="footertext" id="foot">
+                        <h6>© 2023 The Kubernetes Authors | Documentation Distributed under CC BY 4.0</h6>
+                        <h6>Copyright © 2023 The Linux Foundation ®. All rights reserved. The Linux Foundation has
+                            registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation,
+                        </h6>
+                        <a style="color: #fff;" href="">
+                            <h6>please see our Trademark Usage page</h6>
+                        </a>
+                        <h6>ICP license: 京ICP备17074266号-3</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>

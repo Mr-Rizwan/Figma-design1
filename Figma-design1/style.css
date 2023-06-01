@@ -1,0 +1,339 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: normal;
+    box-sizing: border-box;
+   
+}
+body{
+    font-family: open sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+h1, h2, h3, h4{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #3371e3;
+}
+.header{
+    color: #fff;
+    background-color: #dd2335;
+}
+.headtext{
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 50px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 2px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+nav ul{
+    margin-left:30px;
+    
+}
+nav ul li a{
+    color: rgb(237, 235, 235);
+    font-weight:600;
+}
+a.active:hover{
+    color: rgb(208, 205, 205);
+}
+.bars{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+}
+nav ul ul{
+    
+    position: absolute;
+    color: #222;
+    text-decoration: none;
+    background-color: rgb(154, 154, 154);
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+    color:#222;
+}
+.aimg{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    height: 230px;
+    width: 70%;
+    padding-top: 50px;
+}
+.bimg{
+    height: 150px;
+    width: 150px;
+
+}
+.cimg{
+    height: 150px;
+    width: 150px;
+
+}
+.dimg{
+    height: 150px;
+    width: 150px;
+
+}
+.mainbanner{
+    height:"434px";
+    width:"100%";
+    background-image: url("images/kub_video_banner_homepage.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 35%;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.videobanner{
+    width: 70%;
+}
+.mobilebanner{
+    
+    display: none;
+}
+.lbanner{
+width: 30%;
+}
+.bannertext1{
+    background-color:#222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 15px;
+}
+
+.watch{
+    padding: 25px;
+    border-radius: 8px;
+    border: none;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    color: #3371e3;
+    font-size: 20px;
+    margin: 10px;
+    display: flex;
+  
+}
+.bannerbtn{
+    width: 80%;
+ 
+ }
+.bannertext2{
+    background-color:#222;
+    color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 15px;
+}
+.featureimg{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 18px;
+    height: 140px;
+    width: 70px;
+}
+.firstflex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ff{
+    flex: 1;
+}
+#sflex2{
+    flex-direction: row-reverse;
+    
+}
+#ff2{
+    flex-basis: 50%;
+    padding: 15px;
+}
+.feature{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+#featurecolor{
+    background-color: rgb(226, 224, 224);
+}
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f{
+    flex: 1;
+    padding: 10px;
+}
+#f1{
+    padding-right: 40px;
+}
+.fh4{
+    font-size: 25px;
+    padding: 10px;
+}
+.case{
+    display: flex;
+    flex-wrap: wrap;  
+
+}
+.c{
+    flex: 1;
+    text-align: center;
+}
+.read{
+    margin: 10px;
+
+}
+.search{
+    background-color:rgb(226, 224, 224) ;
+    text-align: center;
+    padding: 70px;
+
+}
+.footer{
+    background-color: #222;
+    color: #fff;
+}
+.footerhome{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.footericon{
+    font-size: 25px;
+    width: 20%;
+    padding-top: 30px;
+    
+}
+.footer2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 25px;
+    
+    
+}
+#foot{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.footreverse{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%;
+}
+.footertext{
+    width: 80%;
+    text-align: center;
+    padding-right: 20px;
+}
+#foot1st{
+    padding-left: 20px;
+}
+#foot2nd{
+    width: 20%;
+
+}
+
+.firsticon{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:767px){
+    .row{
+        flex-direction:column;
+    padding: 0px;
+    }
+        .f{
+            padding: 10px;
+        }
+        .fh4{
+            margin: 5px;
+        }
+         .firstflex{
+            flex-direction: column;
+        } 
+        #sflex2{
+            flex-direction: column;
+        }
+        #ff1{
+            text-align: center;
+        }
+        .mainbanner{
+            display: none;
+        }
+        .mobilebanner{
+    
+            display: block;
+        }
+        .bars{
+            display: block;
+
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #fff;
+            text-align:center ;
+            right: -100%;
+            top:80px;
+            transition: all .5s;
+        }
+        nav ul{
+            margin-left: 0px;
+            
+        }
+        nav ul li a{
+            color: #3371e3;
+        }
+        nav ul li{
+            display: block;
+            margin: 20px 0;
+        }
+        a.active:hover{
+            background: none;
+        }
+        #check:checked ~ nav ul{
+            right: 0;
+        }
+        .footerhome{
+            flex-direction: column;
+            text-align: center;
+        }
+        .footreverse{
+            flex-direction: column;
+        }
+        .foot2nd{
+            position: absolute;
+        }
+        
+    }
